@@ -1,0 +1,20 @@
+{
+    "name": "automacao.servidorio",
+    "version": "1.0.0",
+    "description": "servidorio da automação da balança",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "dev": "nodemon --inspect index.js"
+    },
+    "author": "Alesanco Araújo Marins",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "http": "*",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "socket.io": "^4.0.1"
+    }
+}

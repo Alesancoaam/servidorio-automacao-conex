@@ -1,0 +1,5 @@
+.env
+node_modules/
+.vscode
+.scannerwork/.sonar_lock
+.scannerwork/report-task.txt
